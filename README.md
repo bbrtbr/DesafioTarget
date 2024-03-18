@@ -58,17 +58,12 @@ Você está em uma sala com três interruptores, cada um conectado a uma lâmpad
 Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 ```
 Resposta: 
-Na primeira visita:
+Em uma única visita:
 
 Por cinco minutos, aciono o interruptor 1 e, em seguida, desligo-o. Em seguida, ativo o interruptor 2 e imediatamente me dirijo a uma das três salas.
 Se a lâmpada estiver acesa, identifico que pertence ao interruptor 2. Se estiver desligada, mas ainda quente, sei que pertence ao interruptor 1. Se estiver desligada e fria, pertence ao interruptor 3.
 
-Na segunda visita:
 
-Já tendo identificado a qual interruptor pertence cada lâmpada, deixo um interruptor ligado e o outro desligado entre os restantes.
-Dirijo-me a outra sala e, ao fazer isso, descubro os outros dois interruptores.
-
-## Questão 5
 ```java
 Escreva um programa que inverta os caracteres de um string.
 
